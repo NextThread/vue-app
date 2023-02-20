@@ -160,6 +160,6 @@ export default {
 }
 
 &.error {
-  background-image: url("../assets/images/error.jpg");
+  // background-image: url("../assets/images/error.jpg");
 }
 </style>

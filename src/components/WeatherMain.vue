@@ -1,17 +1,10 @@
 <template>
   <div class="weather-main">
     <div class="weather-feelsLike">
-      Feels like
-      <strong>
-        {{getWeatherMain.feelsLike | round}}
-        <sup>&deg;</sup>
-      </strong>
+      
     </div>
     <div class="weather-temp">
-      <div
-        class="weather-icon"
-        :style="[getWeatherMain.icon ? {'background-image': 'url(http://openweathermap.org/img/wn/'+getWeatherMain.icon+'d@2x.png)'}: {}]"
-      ></div>
+     
       <span>{{getWeatherMain.temp | round}}</span>
       <sup>&deg;</sup>
     </div>
